@@ -1,0 +1,37 @@
+{
+  "name": "tslint-config-nimedev",
+  "version": "1.0.0",
+  "description": "nimedev sharable configuration for TSLint",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nimedev/typescript"
+  },
+  "keywords": [
+    "tslint",
+    "tslint-config",
+    "config",
+    "typescript",
+    "styleguide"
+  ],
+  "author": "Nicolás Mejía Correa <nicolasmejiaco@gmail.com> (https://twitter.com/nimedev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nimedev/typescript/issues"
+  },
+  "homepage": "https://github.com/nimedev/typescript",
+  "engines": {
+    "node": ">= 6"
+  },
+  "devDependencies": {
+    "eslint": "3.12.2",
+    "eslint-config-nimedev-base": "1.0.0",
+    "eslint-plugin-import": "2.2.0"
+  },
+  "peerDependencies": {
+    "tslint": "^4.2.0"
+  }
+}

@@ -1,2 +1,3 @@
-# typescript
-TypeScript Style Guide
+# Nimedev TypeScript Style Guide
+
+*An approach to write TypeScript*

@@ -1,0 +1,20 @@
+{
+  "name": "nimedev-ts-style",
+  "version": "1.0.0",
+  "description": "An approach to write TypeScript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nimedev/typescript.git"
+  },
+  "keywords": [
+    "style guide",
+    "lint",
+    "typescript"
+  ],
+  "author": "nimedev <nicolasmejiaco@gmail.com> (https://twitter.com/nimedev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nimedev/typescript/issues"
+  },
+  "homepage": "https://github.com/nimedev/typescript"
+}
