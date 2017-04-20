@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-nimedev",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "nimedev sharable configuration for TSLint",
   "main": "index.js",
   "scripts": {
@@ -32,6 +32,9 @@
     "eslint-plugin-import": "2.2.0"
   },
   "peerDependencies": {
-    "tslint": "^4.2.0"
+    "tslint": "^5.0.0"
+  },
+  "eslintConfig": {
+    "extends": "nimedev-base"
   }
 }
