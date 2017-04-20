@@ -1,3 +1,5 @@
+'use strict'
+
 module.exports = {
   rules: {
     // Ensures the file ends with a newline.

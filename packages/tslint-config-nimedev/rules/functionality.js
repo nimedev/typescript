@@ -1,3 +1,5 @@
+'use strict'
+
 module.exports = {
   rules: {
     // Bans the use of specified console methods.
