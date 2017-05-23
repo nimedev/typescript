@@ -19,5 +19,21 @@ module.exports = {
 
     // Disallows trailing whitespace at the end of a line.
     'no-trailing-whitespace': true,
+
+    // Requires or disallows trailing commas in array and object literals,
+    // destructuring assignments, function typings, named imports and exports
+    // and function parameters.
+    'trailing-comma': [
+      true,
+      {
+        multiline: {
+          objects: 'always',
+          arrays: 'always',
+          functions: 'never',
+          typeLiterals: 'ignore',
+        },
+        singleline: 'never',
+      },
+    ],
   },
 }

@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-nimedev",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "nimedev sharable configuration for TSLint",
   "main": "index.js",
   "scripts": {
