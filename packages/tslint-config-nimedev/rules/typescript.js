@@ -12,8 +12,8 @@ module.exports = {
         'index-signature': 'nospace',
         parameter: 'nospace',
         'property-declaration': 'nospace',
-        'variable-declaration': 'nospace'
-      }
-    ]
-  }
+        'variable-declaration': 'nospace',
+      },
+    ],
+  },
 }

@@ -8,16 +8,16 @@ module.exports = {
     // Enforces indentation with tabs or spaces.
     indent: [
       true,
-      'spaces'
+      'spaces',
     ],
 
     // Requires lines to be under a certain max length.
     'max-line-length': [
       true,
-      100
+      100,
     ],
 
     // Disallows trailing whitespace at the end of a line.
-    'no-trailing-whitespace': true
-  }
+    'no-trailing-whitespace': true,
+  },
 }

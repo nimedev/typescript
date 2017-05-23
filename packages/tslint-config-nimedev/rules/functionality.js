@@ -7,7 +7,7 @@ module.exports = {
       true,
       'log',
       'error',
-      'warn'
+      'warn',
     ],
 
     // Disallows duplicate variable declarations in the same block scope.
@@ -22,7 +22,7 @@ module.exports = {
     // Requires === and !== in place of == and !=.
     'triple-equals': [
       true,
-      'allow-null-check'
-    ]
-  }
+      'allow-null-check',
+    ],
+  },
 }

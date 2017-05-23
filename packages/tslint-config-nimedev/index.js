@@ -5,6 +5,6 @@ module.exports = {
     './rules/typescript',
     './rules/functionality',
     './rules/maintainability',
-    './rules/style'
-  ].map(require.resolve)
+    './rules/style',
+  ].map(require.resolve),
 }

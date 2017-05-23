@@ -8,32 +8,32 @@ module.exports = {
     // Enforces formatting rules for single-line comments.
     'comment-format': [
       true,
-      'check-space'
+      'check-space',
     ],
 
     // Requires the specified tokens to be on the same line as the expression preceding them.
     'one-line': [
       true,
       'check-open-brace',
-      'check-whitespace'
+      'check-whitespace',
     ],
 
     // Requires single or double quotes for string literals.
     quotemark: [
       true,
-      'single'
+      'single',
     ],
 
     // Enforces consistent semicolon usage at the end of every statement.
     semicolon: [
       true,
-      'never'
+      'never',
     ],
 
     // Checks variable names for various errors.
     'variable-name': [
       true,
-      'ban-keywords'
+      'ban-keywords',
     ],
 
     // Enforces whitespace style conventions.
@@ -43,7 +43,7 @@ module.exports = {
       'check-decl',
       'check-operator',
       'check-separator',
-      'check-type'
-    ]
-  }
+      'check-type',
+    ],
+  },
 }
