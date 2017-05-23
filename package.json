@@ -2,6 +2,12 @@
   "name": "nimedev-ts-style",
   "version": "1.0.0",
   "description": "An approach to write TypeScript",
+  "scripts": {
+    "lint": "cd packages/tslint-config-nimedev && npm run lint"
+  },
+  "pre-commit": [
+    "lint"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/nimedev/typescript.git"
@@ -16,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/nimedev/typescript/issues"
   },
-  "homepage": "https://github.com/nimedev/typescript"
+  "homepage": "https://github.com/nimedev/typescript",
+  "devDependencies": {
+    "pre-commit": "1.2.2"
+  }
 }
