@@ -3,7 +3,7 @@
 module.exports = {
   rules: {
     // Ensures the file ends with a newline.
-    eofline: true,
+    eofline: false,
 
     // Enforces indentation with tabs or spaces.
     indent: [

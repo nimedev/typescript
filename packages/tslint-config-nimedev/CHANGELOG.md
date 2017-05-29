@@ -1,5 +1,11 @@
 # Change Log
 
+## [3.0.0] - 2017-05-29
+
+### Modified
+- [Breaking change] disable eofline rule.
+
+
 ## [2.0.0] - 2017-05-22
 
 ### Added
