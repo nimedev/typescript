@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/nimedev/typescript",
   "engines": {
+    "npm": ">=5.0.0",
     "node": ">= 6"
   },
   "devDependencies": {
