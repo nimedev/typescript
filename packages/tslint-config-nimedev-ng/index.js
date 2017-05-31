@@ -1,9 +1,9 @@
 'use strict'
 
 module.exports = {
-  extends: 'tslint-config-nimedev',
-  rulesDirectory: [
-    'node_modules/codelyzer',
+  extends: [
+    'tslint-config-nimedev',
+    'codelyzer',
   ],
   rules: {
     'use-input-property-decorator': true,

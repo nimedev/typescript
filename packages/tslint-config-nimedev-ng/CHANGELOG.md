@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.2] - 2017-05-31
+
+### Fixed
+- Fix codelyzer extension.
+
+
 ## [1.0.1] - 2017-05-31
 
 ### Fixed
