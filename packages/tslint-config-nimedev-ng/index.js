@@ -1,10 +1,7 @@
 'use strict'
 
 module.exports = {
-  extends: [
-    'tslint-config-nimedev',
-    'codelyzer',
-  ],
+  extends: 'tslint-config-nimedev',
   rules: {
     'use-input-property-decorator': true,
     'use-output-property-decorator': true,

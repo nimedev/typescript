@@ -20,7 +20,10 @@ Set your tslint.json file to:
 
 ```json
 {
-  "extends": "tslint-config-nimedev-ng"
+  "extends": "tslint-config-nimedev-ng",
+  "rulesDirectory": [
+    "node_modules/codelyzer"
+  ]
 }
 ```
 
@@ -33,6 +36,9 @@ For example, to enable `directive-selector` and `component-selector` rules.
 ```json
 {
   "extends": "tslint-config-nimedev-ng",
+  "rulesDirectory": [
+    "node_modules/codelyzer"
+  ],
   "rules": {
     "directive-selector": [
       true,
