@@ -28,8 +28,7 @@ Set your tslint.json file to:
 
 Simply add a `"rules"` key to your config and add your overrides there.
 
-For example, to turn off the `no-console` rule:
-
+For example, to enable `directive-selector` and `component-selector` rules.
 
 ```json
 {

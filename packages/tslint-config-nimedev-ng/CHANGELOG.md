@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.1] - 2017-05-31
+
+### Fixed
+- Fix extend rules documentation.
+
+
 ## [1.0.0] - 2017-05-31
 
 ### Added
