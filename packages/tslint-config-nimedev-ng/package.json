@@ -1,0 +1,47 @@
+{
+  "name": "tslint-config-nimedev-ng",
+  "version": "1.0.0",
+  "description": "nimedev sharable configuration for TSLint used in Angular aplications",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nimedev/typescript"
+  },
+  "keywords": [
+    "tslint",
+    "tslint-config",
+    "config",
+    "typescript",
+    "styleguide",
+    "angular",
+    "codelyzer"
+  ],
+  "author": "Nicolás Mejía Correa <nicolasmejiaco@gmail.com> (https://twitter.com/nimedev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nimedev/typescript/issues"
+  },
+  "homepage": "https://github.com/nimedev/typescript",
+  "engines": {
+    "npm": ">=5.0.0",
+    "node": ">= 6"
+  },
+  "dependencies": {
+    "tslint-config-nimedev": "3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "3.19.0",
+    "eslint-config-nimedev-base": "4.2.0",
+    "eslint-plugin-import": "2.3.0"
+  },
+  "peerDependencies": {
+    "tslint": "^5.0.0",
+    "codelyzer": "^3.0.1"
+  },
+  "eslintConfig": {
+    "extends": "nimedev-base"
+  }
+}
