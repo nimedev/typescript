@@ -1,5 +1,11 @@
 # Change Log
 
+## [3.0.1] - 2017-06-28
+
+### Updated
+- Upgrade devDep: eslint eslint-config-nimedev-base eslint-plugin-import.
+
+
 ## [3.0.0] - 2017-05-29
 
 ### Modified
