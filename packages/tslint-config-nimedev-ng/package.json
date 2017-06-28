@@ -33,9 +33,9 @@
     "tslint-config-nimedev": "3.0.0"
   },
   "devDependencies": {
-    "eslint": "3.19.0",
-    "eslint-config-nimedev-base": "4.2.0",
-    "eslint-plugin-import": "2.3.0"
+    "eslint": "4.1.1",
+    "eslint-config-nimedev-base": "5.1.0",
+    "eslint-plugin-import": "2.6.0"
   },
   "peerDependencies": {
     "tslint": "^5.0.0",
