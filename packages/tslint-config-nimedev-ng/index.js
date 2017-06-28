@@ -3,6 +3,7 @@
 module.exports = {
   extends: 'tslint-config-nimedev',
   rules: {
+    'angular-whitespace': [true, 'check-interpolation', 'check-pipe'],
     'use-input-property-decorator': true,
     'use-output-property-decorator': true,
     'use-host-property-decorator': true,

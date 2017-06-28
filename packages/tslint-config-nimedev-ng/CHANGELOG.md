@@ -1,5 +1,15 @@
 # Change Log
 
+## [1.1.0] - 2017-06-28
+
+### Added
+- Add `angular-whitespace` rule.
+
+### Updated
+- Upgrade dep: tslint-config-nimedev.
+- Upgrade devDep: eslint eslint-config-nimedev-base eslint-plugin-import.
+
+
 ## [1.0.3] - 2017-05-31
 
 ### Fixed
