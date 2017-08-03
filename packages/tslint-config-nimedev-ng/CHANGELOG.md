@@ -1,5 +1,12 @@
 # Change Log
 
+## [2.0.0] - 2017-08-03
+
+### Updated
+- [Breaking change] Upgrade dep: tslint-config-nimedev.
+- 300f0ee Upgrade devDep: codelyzer eslint eslint-plugin-import tslint.
+
+
 ## [1.1.0] - 2017-06-28
 
 ### Added
