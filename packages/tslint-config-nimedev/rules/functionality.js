@@ -16,6 +16,12 @@ module.exports = {
     // Disallows eval function invocations.
     'no-eval': true,
 
+    // Disallows unused imports, variables, functions and private class members.
+    'no-unused-variable': true,
+
+    // Disallows usage of variables before their declaration.
+    'no-use-before-declare': true,
+
     // Disallows usage of the var keyword.
     'no-var-keyword': true,
 

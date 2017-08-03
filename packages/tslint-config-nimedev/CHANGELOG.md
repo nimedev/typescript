@@ -1,5 +1,14 @@
 # Change Log
 
+## [4.0.0] - 2017-08-02
+
+### Added
+- [Breaking change] Add `no-unused-variabl` and `no-use-before-declare` rules.
+
+### Updated
+- Upgrade devDep: eslint eslint-plugin-import.
+
+
 ## [3.0.1] - 2017-06-28
 
 ### Updated
